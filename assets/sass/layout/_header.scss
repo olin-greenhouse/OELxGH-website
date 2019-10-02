@@ -85,7 +85,8 @@
 				}
 
 				.headshots {
-					margin-bottom: 8px;
+					margin: 0 auto 8px;
+					max-width: 650px;
 					.headshot-row {
 						display: flex;
 						flex-direction: row;
@@ -109,11 +110,11 @@
 						}
 	
 					}
-
 				}
 
+			}
+
 			p {
-				text-transform: uppercase;
 				letter-spacing: _font(letter-spacing);
 				font-size: 0.8rem;
 				font-weight: 700;
@@ -289,4 +290,3 @@
 			}
 		}
 	}
-}
