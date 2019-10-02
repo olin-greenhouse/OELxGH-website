@@ -78,7 +78,6 @@
 				));
 				@include vendor('transition-delay', '0.25s');
 				padding: 3rem 2rem;
-				max-height: 40rem;
 				overflow: hidden;
 
 				> :last-child {
@@ -95,7 +94,8 @@
 						width: 100%;
 
 						.headshot {
-							background-color: tomato;
+							background-image: url('../../images/pigeon.jpg');
+							background-size: cover;
 							border-radius: 50%;
 							margin: 8px;
 							flex: 1 0 auto;
@@ -110,11 +110,6 @@
 	
 					}
 
-					@media (max-width: 768px) {
-						.headshot-row {
-							flex-direction: column;
-						}
-					}
 				}
 
 			p {
