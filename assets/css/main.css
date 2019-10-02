@@ -960,7 +960,7 @@ button {
         max-width: 650px; }
         #header .content .inner .team article {
           flex-basis: 25%;
-          min-width: 150px;
+          min-width: 185px;
           padding: 1em; }
         #header .content .inner .team .headshot {
           display: inline-block;
